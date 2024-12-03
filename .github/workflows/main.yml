@@ -28,8 +28,8 @@ jobs:
     - name: Set Variables
       id: set-var
       run: |
-        echo "DOCKER_REGISTRY=oolralra" >> $GITHUB_ENV
+        echo "DOCKER_REGISTRY=audrl346" >> $GITHUB_ENV
         echo "DOCKER_REPOSITORY=fast" >> $GITHUB_ENV #본인 ecr레포에 맞게 수정
         echo "IMAGE_TAG=${{ github.run_number }}" >> $GITHUB_ENV
-        echo "GIT_EMAIL=pcmin929@gmail.com" >> $GITHUB_ENV
-        echo "GIT_NAME=pcmin929" >> $GITHUB_ENV
+        echo "GIT_EMAIL=audrl346@gmail.com" >> $GITHUB_ENV
+        echo "GIT_NAME=shonmyungki" >> $GITHUB_ENV
