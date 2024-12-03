@@ -31,7 +31,7 @@ jobs:
         echo "DOCKER_REGISTRY=audrl346" >> $GITHUB_ENV
         echo "DOCKER_REPOSITORY=mynginx" >> $GITHUB_ENV #본인 ecr레포에 맞게 수정
         echo "IMAGE_TAG=${{ github.run_number }}" >> $GITHUB_ENV
-        echo "GIT_EMAIL=audrl346@gmail.com" >> $GITHUB_ENV
+        echo "GIT_EMAIL=audrl346@naver.com" >> $GITHUB_ENV
         echo "GIT_NAME=shonmyungki" >> $GITHUB_ENV
  
     - name: Docker Image Build
